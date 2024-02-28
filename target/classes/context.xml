@@ -10,5 +10,7 @@
 
 	<!-- bean definitions here -->
 	<bean class="com.HAH.ioc.bean.MyClient"></bean>
+	
+	<bean factory-method="createStatic" class="com.HAH.ioc.bean.StaticFactory"></bean>
 
 </beans>
