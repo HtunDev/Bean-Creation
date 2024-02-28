@@ -12,5 +12,8 @@
 	<bean class="com.HAH.ioc.bean.MyClient"></bean>
 	
 	<bean factory-method="createStatic" class="com.HAH.ioc.bean.StaticFactory"></bean>
+	
+	<bean factory-method="createInstance" factory-bean="instance"></bean>
+	<bean class="com.HAH.ioc.bean.InstanceFactory" id="instance"></bean>
 
 </beans>
